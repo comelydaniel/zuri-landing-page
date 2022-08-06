@@ -1,0 +1,352 @@
+body {
+    background: rgb(255, 253, 245);
+}
+
+.header {
+    transition: all 0.3s ease;
+}
+
+.header.scroll {
+    position: fixed;
+    background: rgb(255, 253, 245);
+    margin: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.header-links ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+.enroll-btn .thumbs .thumbs-up {
+    background: #e7332b;
+    border: 15px solid #e7332b;
+    border-radius: 50%;
+    padding: 22px 0 25px 0;
+    position: relative;
+    right: -35px;
+
+}
+
+.enroll-btn .thumbs .enroll, .enroll {
+    background: #e7332b;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+.training-intro .col-h6 {
+    color: #e7332b;
+    font-family: Graphik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.training-intro .col-h2 {
+    color: #1b1a20;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 110%;
+    padding-top: 10px;
+}
+
+.training-intro .intro-para p {
+    color: #1b1a20;
+    font-size: 24px;;
+    font-weight: 400;
+    line-height: 130%!;
+}
+
+.training-intro .extras .small-face {
+    position: relative;
+    top: -27px;
+}
+
+.training-intro .extras .spiral-line {
+    position: relative;
+    right: 17%;
+}
+
+.training-intro::before, .behind::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    bottom: 0px;
+    left: 4%;
+    width: 90%;
+    background: lightgrey;
+}
+
+#behind {
+    position: relative;
+}
+ 
+#behind h4 {
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+#behind p {
+    font-size: 30px;
+    font-weight: 400px;
+    text-align: right;
+}
+
+#behind p a {
+    color: #43b97f;
+    font-size: 30px;
+    font-weight: 400px;
+}
+
+.big-heading {
+    font-size: 54px;
+    font-weight: 700px;
+}
+
+.red-heading {
+    color: #e7332b;
+    font-size: 30px;
+}
+
+#why-section .side-spiral {
+   margin-left: 22%;
+}
+
+.six-reasons .card-red {
+    background: #e7332b;
+    color: #ffff;
+}
+
+.six-reasons .card .card-curve img {
+    float: right;
+}
+
+.six-reasons .card {
+    border: none !important;
+    border-radius: 18px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.six-reasons .card .card-content {
+    position: relative;
+    top: -80px;
+}
+
+.six-reasons .card .card-content h4 {
+    font-size: 70px;
+    font-weight: 700px;
+    line-height: 130%;
+}
+
+.six-reasons .card .card-content h5 {
+    font-size: 46px;
+    font-weight: 500px;
+}
+
+.six-reasons .card .card-content p {
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.six-reasons .card:hover {
+    transform: translateY(-30px);
+}
+
+.help-you {
+    background-color: rgb(231, 51, 43);
+    color: #fff;
+}
+
+.help-you .help-buttons .disabled {
+    border: 3px solid #fff;
+    border-radius: 40px;
+    background: transparent;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: not-allowed;
+}
+
+.help-you .help-intro h6 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.help-you .help-intro h3 {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.help-you .help-intro p {
+    font-size: 24px;
+}
+
+.enroll-white {
+    background: #ffff;
+    text-decoration: none;
+    color: #e7332b;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+.help-you .help-intro .dotted-square {
+    position: relative;
+    left: -60px;
+}
+
+#scope-section .scope-intro h2 {
+    width: 40%;
+}
+
+#scope-section .scope-type .card {
+    border: none !important;
+    border-radius: 41px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+}
+
+#scope-section .scope-type .card h4 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.scope-section .scope-type .card .scope-para p {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.scope-type {
+    position: relative;
+}
+
+.scope-type::before, #faq-section::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    bottom: 0px;
+    left: 4%;
+    width: 90%;
+    background: lightgrey;
+}
+
+#faq-section {
+    position: relative;
+}
+
+#faq-section .faq-intro .faq-spiral {
+    margin-left: 15%;
+    position: relative;
+    bottom: -80px;
+}
+
+#faq-section .faq-box .accordion {
+    width: 70%;
+    border: 1px solid rgba(71,44,111,.43);
+    margin: 0 auto;
+    color: #333;
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+}
+
+#faq-section .faq-box .accordion .accordion-q {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#faq-section .faq-box .accordion .accordion-answer {
+    font-size: 20px;
+    display: none;
+}
+
+#faq-section .faq-box .accordion.open .accordion-answer {
+    display: block;
+}
+
+#faq-section .faq-box .accordion .plus  {
+    transition: transform 0.3s ease;
+}
+
+#faq-section .faq-box .accordion.open .plus {
+    transform: rotate(180deg);
+}
+
+.three-color {
+    font-size: 20px;
+    color: #333;
+}
+
+.program-structure .program-intro {
+    min-height: 47vh;
+}
+
+.program-structure .program-proper .card {
+    background: #1b1a20;
+    border-radius: 65px;
+    box-shadow: 0 31px 60px rgba(231,51,43,.2);
+    color: #fff;
+    position: relative;
+}
+
+.program-structure .program-proper .card ul li a {
+    color: #fff;
+}
+
+.program-structure .program-proper .card i {
+    color: #e7332b;
+}
+
+.program-structure .program-proper h6 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.program-structure .program-proper h3 {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.program-structure .program-proper p, .program-structure .program-proper ul li {
+    font-size: 20px;
+}
+
+.program-structure .program-proper .card .hour {
+    position: absolute;
+    bottom: 5%;
+    left: 80%;
+}
+
+.program-structure .program-proper .part-time-card {
+    position: relative;
+}
+
+.part-time-square {
+    position: absolute;
+    bottom: -40px;
+    left: 90%;
+    right: -50px;
+    z-index: -10;
+}
+
+.enter-tech .get-started {
+    background: #e7332b;
+    color: #fff !important;
+    border-radius: 25px;
+    font-size: 24px;
+    position: relative;
+}
+
+.enter-tech .get-started .white-square{
+   position: absolute;
+   bottom: 0;
+   left: 90%;
+}
+
+footer .second-part p, footer .second-part a {
+    font-size: 20px;
+    color: black;
+}
+

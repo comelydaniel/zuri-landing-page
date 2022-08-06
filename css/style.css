@@ -1,0 +1,154 @@
+@import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
+
+#hero-section {
+    background: url(../img/zuri\ hero\ bg.svg) center/cover no-repeat;
+    min-height: 120vh;
+    padding-top: 5%;
+}
+
+#hero-section .logo {
+    width: 100%;
+}
+
+#hero-section .hero-words h2 {
+    font-size: 44px;
+    line-height: 34px;
+    font-weight: 800;
+    padding-top: 7%;
+    color: #514949;
+    font-family: 'Averta-Semibold', sans-serif;
+}
+
+#hero-section .hero-words .hero-para {
+    width: 65%;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 4%;
+    color: #514949;
+    opacity: 0.9;
+    font-family: 'Averta-Regular', sans-serif;
+}
+
+#hero-section .hero-words .hero-para a{
+    text-decoration: none;
+    color: #E7332B;
+}
+
+#hero-section .experience-btn .new {
+    background: #E7332B;
+    color: #fff;
+    font-family: 'Averta-Regular', sans-serif;
+    font-size: 24px;
+}
+
+#hero-section .experience-btn .new:hover {
+    background: #fff;
+    color: #E7332B;
+    border: 1px solid #E7332B;
+}
+
+#hero-section .experience-btn .experienced {
+    background: #ffff;
+    color: #E7332B;
+    border: 1px solid #E7332B;
+    font-family: 'Averta-Regular', sans-serif;
+    font-size: 24px;
+}
+
+#hero-section .experience-btn .experienced:hover {
+    background: #E7332B;
+    color: #fff;
+    border: 1px solid #E7332B;
+}
+
+#home-body {
+    position: relative;
+}
+
+#home-body .card {
+    background-color: #FFFAFA;
+    border-color: transparent !important;
+}
+
+#home-body .card .card-anchor, .link-anchor {
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9;
+    text-decoration: none;
+    font-family: 'Averta-Regular', sans-serif;
+}
+
+#home-body .zuri-intro h3 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    font-family: 'Averta-Regular', sans-serif;
+}
+
+#home-body .zuri-intro .slogan {
+    font-size: 24px;
+    line-height: 40px;
+    color: #514949;
+    font-family: 'Averta-Regular', sans-serif;
+}
+
+#home-body .training-para {
+    font-family: 'Averta-Regular', sans-serif;
+    font-size: 24px;
+    opacity: 0.9;
+    color: #514949;
+}
+
+.dotted-bg-left {
+    position: absolute;
+    top: 29%;
+    left: 0;
+}
+
+.dotted-bg-right {
+    position: absolute;
+    top: 29%;
+    left: 80%;
+}
+
+.footer-link{
+    position: relative;
+}
+
+footer h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+    margin-bottom: 10px;
+    font-family: 'Averta-Regular', sans-serif;
+}
+
+.footer-link::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    bottom: -30px;
+    left: 4%;
+    width: 90%;
+    background: lightgrey;
+}
+
+.copyright p {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #514949;
+    font-family: 'Averta-Regular', sans-serif;
+}
+
+@media (max-width: 769px) {
+    #hero-section .experience-btn .new {
+        width: 30%;
+    }
+    
+    #hero-section .experience-btn .experienced {
+        width: 35%;
+    }
+}
